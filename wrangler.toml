@@ -1,15 +1,15 @@
-name = "pb"
+name = "pastebin"
 compatibility_date = "2023-01-28"
 
-account_id = "1ddaf86dbca12e8f4fcaa76f32bb707d"
+account_id = "889b0f40a1aff61027b26a2ffe73a435"
 workers_dev = false
 main = "src/index.js"
 
 # config for default production environment
 vars = { ENVIRONMENT = "production" }
-route = { pattern = "shz.al", custom_domain = true }
+route = { pattern = "pastebin.717717.cloudns.biz", custom_domain = true }
 kv_namespaces = [
-  { binding = "PB", id = "cc398e983a234aa19de5ea6af571a483" },
+  { binding = "pastebin", id = "89212d2f1fc640aa840d8ac29810728a" },
 ]
 
 [env.preview]
@@ -18,6 +18,6 @@ route = { pattern = "pb-preview.shz.al", custom_domain = true }
 minify = false
 
 kv_namespaces = [
-  { binding = "PB", id = "f56ae0043abd4bb4ab61c52071bd9c7f" }
+  { binding = "pastebin", id = "89212d2f1fc640aa840d8ac29810728a" }
 ]
 
