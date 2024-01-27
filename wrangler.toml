@@ -12,10 +12,10 @@ kv_namespaces = [
   { binding = "pastebin", id = "89212d2f1fc640aa840d8ac29810728a" },
 ]
 
-[env.preview]
-vars = { ENVIRONMENT = "preview" }
-route = { pattern = "pb-preview.shz.al", custom_domain = true }
-minify = false
+#[env.preview]
+#vars = { ENVIRONMENT = "preview" }
+#route = { pattern = "pb-preview.shz.al", custom_domain = true }
+#minify = false
 
 kv_namespaces = [
   { binding = "pastebin", id = "89212d2f1fc640aa840d8ac29810728a" }
